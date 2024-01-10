@@ -68,29 +68,21 @@ const Navbar = ({ setData, cart }) => {
             className="cursor-pointer active:bg-white w-[100%] p-1 flex justify-center hover:bg-white my-2 "
             onClick={() => filterByCategory("mobiles")}
           >
-            Apply
+            Mobiles
           </div>
           <div
             className="cursor-pointer hover:bg-white my-2 active:bg-white w-[100%] p-1 flex justify-center"
             onClick={() => filterByCategory("laptops")}
           >
-            Sumsung
+            Laptops
           </div>
           <div
             className="cursor-pointer hover:bg-white my-2 active:bg-white w-[100%] p-1 flex justify-center"
             onClick={() => filterByCategory("tablets")}
           >
-            Nokia
+            Tablets
           </div>
-          <div className="cursor-pointer hover:bg-white my-2 active:bg-white w-[100%] p-1 flex justify-center">
-            Vivo
-          </div>
-          <div className="cursor-pointer hover:bg-white my-2 active:bg-white w-[100%] p-1 flex justify-center">
-            Redmi
-          </div>
-          <div className="cursor-pointer hover:bg-white my-2 active:bg-white w-[100%] p-1 flex justify-center">
-            One Plus
-          </div>
+          
         </div>
       )}
     </>
